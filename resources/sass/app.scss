@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+header {
+    height: 130px;
+    background-color: white;
+}
+
+.jumbo-container {
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.comics-jumbo-img {
+    min-width: 100%;
+}
