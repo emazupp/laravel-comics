@@ -13,9 +13,10 @@ Laravel comics
         <div class="jumbo-container">
             <img src="{{Vite::asset("resources/img/jumbotron.jpg")}}" alt="comics-jumbo" class="comics-jumbo-img">
         </div>
-        <div class="container">
-            <h1>CURRENT SERIES</h1>
-            <div class="row row-cols-6">
+        <div class="container section-wrapper">
+            <div class="section-title"><span>CURRENT SERIES</span></div>
+            
+            <div class="mt-5 row row-cols-lg-6 row-cols-md-4 row-cols-2">
                 @foreach ($comics as $comic)
                     <div class="col">
                         <x-card>
@@ -25,6 +26,12 @@ Laravel comics
                     </div>
                 @endforeach
             </div>
+            <div class="d-flex justify-content-center">
+                <x-button>
+                    <x-slot:text>load more</x-slot:text>
+                </x-button>
+            </div>
+           
         </div>
     </main>
 

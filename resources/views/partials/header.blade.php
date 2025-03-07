@@ -1,6 +1,7 @@
 
-<header class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container">
         <div class="container-fluid justify-content-between">
             <div>
                 <a class="navbar-brand" href="#"><img src="{{Vite::asset("resources/img/dc-logo.png")}}" alt="dc-logo"></a>
