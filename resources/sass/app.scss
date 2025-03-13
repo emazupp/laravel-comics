@@ -1,0 +1,151 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    background-color: #1C1C1C;
+}
+
+header {
+    height: 130px;
+    background-color: white;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.jumbo-container {
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.comics-jumbo-img {
+    min-width: 100%;
+}
+
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.card-img-container {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card-title {
+    color: white !important;
+    font-size: 0.8rem;
+}
+
+.section-wrapper {
+    position: relative;
+}
+
+.section-title {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 1.7rem;
+    background-color: #0282F9;
+    padding: 5px 20px;
+    top: -80px;
+}
+
+.custom-button {
+    border-radius: 0px !important;
+    padding: 5px 30px !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+}
+
+.upper-footer {
+    background-color: #0282F9;
+    height: 150px;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer li>span {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li>img {
+    height: 50px;
+
+}
+footer li:last-child>img {
+    width: 60px;
+}
+
+.middle-footer {
+    height: 400px;
+    background-image: url("../img/footer-bg.jpg");
+    overflow: hidden;
+}
+
+.logo-container {
+    position: relative
+}
+
+.logo-container>img {
+    position: absolute;
+    top: -75px;
+}
+
+.footer-title {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem
+}
+
+.list a {
+    color: rgb(211, 211, 211);
+}
+
+.bottom-footer {
+    height: 100px;
+}
+
+.social-container button {
+    border: none;
+    background-color: transparent;
+    width: 45px;
+}
+
+.social-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.social-container span {
+    color: #0282F9;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.signUP-button {
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    border: 3px solid #0282F9;
+    background-color: transparent;
+}
